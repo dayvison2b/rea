@@ -6,7 +6,7 @@ import {
   semanticStaticPropertyName,
 } from "./javascript/javascriptAstValues.js";
 
-/** Pick the endpoint argument for common network-call patterns. */
+/** Find a statically named property value in an object expression. */
 
 export const objectValue = (
   object: t.ObjectExpression,
